@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="{{path}}/style.css" type="text/css" />
+  <link rel="stylesheet" href="{{path}}/static/vk-jewishizer.css" type="text/css" />
   <title>{{title}}</title>
 </head>
 
@@ -11,9 +11,9 @@
   <div class="content">
     <h1>{{title}}</h1>
     <div class="clear"></div>
-    <form action="{{path}}" method="post">
+    <form action="" method="post">
       <p>
-        <label for="userId" class="bold">User ID:</label>
+        <label for="userId" class="bold">Your user ID:</label>
         <input type="number" name="userId" id="userId" value="">
       </p>
       <p>

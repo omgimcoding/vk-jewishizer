@@ -48,7 +48,7 @@ img {
 
 .friends {
   margin-top: 30px;
-  background: linear-gradient(to bottom, #1e253a 0%, rgba(0, 0, 0, 0) 20%);
+  background: linear-gradient(to bottom, #1e253a 0%, rgba(0, 0, 0, 0) 200px);
 }
 
 .friend {

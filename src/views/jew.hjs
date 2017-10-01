@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="{{path}}/style.css" type="text/css" />
+  <link rel="stylesheet" href="{{path}}/static/vk-jewishizer.css" type="text/css" />
   <title>{{title}}</title>
 </head>
 
@@ -18,7 +18,7 @@
           <h2 class="name">{{name}}</h2>
           <p class="photo">
             <span class="star">&#10017;</span>
-            <a href="{{vkUserUrl}}{{id}}"><img src="{{photo}}"></a>
+            <a href="{{vkUserUrl}}{{id}}"><img src="{{photo}}" width="100px" height="100px"></a>
           </p>
         </div>
       {{/friends}}
