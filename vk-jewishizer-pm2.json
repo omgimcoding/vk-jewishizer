@@ -1,0 +1,7 @@
+{
+  "apps": [{
+    "name"	: "vk-jewishizer",
+    "script": "src/app.js",
+    "watch"	: true
+  }]
+}

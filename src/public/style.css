@@ -1,0 +1,110 @@
+* {
+  text-align: center;
+  border-radius: 1px;
+  outline: none;
+}
+
+body {
+  background-color: #171e32;
+  font: medium sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  color: white;
+  font-family: tahoma;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+p {
+  margin: 5px 0 5px 0;
+}
+
+.clear {
+  display: block;
+  width: 100%;
+}
+
+a, a:link, a:active, a:visited {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4)
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  border-radius: 100px;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  padding: 20px 20%;
+}
+
+.friends {
+  margin-top: 30px;
+  background: linear-gradient(to bottom, #1e253a 0%, rgba(0, 0, 0, 0) 20%);
+}
+
+.friend {
+  display: inline-block;
+  margin: 2px 0;
+  padding: 8px;
+}
+
+.star {
+  color: rgba(255, 255, 255, 0.12);
+  font-size: 15em;
+  display: block;
+  line-height: 100px;
+  margin: 0 0 -100px 0;
+}
+
+form {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-left: 30px solid #273046;
+}
+
+label.bold {
+  font-weight: bold;
+  color: #9399ab;
+}
+
+input#userId {
+  color: white;
+  background-color: #2f354a;
+  border: 1px solid #353c52;
+}
+
+input.jew {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 0 40px;
+  line-height: 80px;
+  border-radius: 2px;
+  font-size: 80px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(124, 183, 255, 0.05);
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.08) inset, 1px 1px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+input.jew:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(145, 195, 255, 0.1);
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.15) inset, 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+input.jew:active {
+  top: 1px;
+}

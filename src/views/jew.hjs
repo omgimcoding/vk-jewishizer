@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{path}}/style.css" type="text/css" />
+  <title>{{title}}</title>
+</head>
+
+<body>
+  <div class="content">
+    <h1>{{title}}</h1>
+    <div class="clear"></div>
+    {{#emptyResult}}{{emptyResult}}{{/emptyResult}}
+    <div class="friends">
+      {{#friends}}
+        <div class="friend">
+          <h2 class="name">{{name}}</h2>
+          <p class="photo">
+            <span class="star">&#10017;</span>
+            <a href="{{vkUserUrl}}{{id}}"><img src="{{photo}}"></a>
+          </p>
+        </div>
+      {{/friends}}
+  </div>
+  </div>
+</body>
+
+</html>

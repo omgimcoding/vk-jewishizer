@@ -1,0 +1,16 @@
+{
+  "name": "VKjewishizer",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~4.13.1",
+    "hjs": "0.0.6",
+    "request": "^2.83.0",
+    "serve-favicon": "^2.3.2"
+  }
+}
