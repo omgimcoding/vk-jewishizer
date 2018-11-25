@@ -25,6 +25,7 @@ router.post('/', function(req, res) {
       order: config.order,
       lang: config.language,
       v: config.apiVersion,
+      access_token: config.accessToken,
     },
   };
 
@@ -33,7 +34,11 @@ router.post('/', function(req, res) {
       let friends = [];
 
       (function listFriends() {
-        body.response.items.forEach((friend) => friends.push(jewishize(friend, req.body.mode)));
+        body.response.items.forEach((friend) => {
+          if (!friend.deactivated) {
+            friends.push(jewishize(friend, req.body.mode));
+          }
+        });
       }());
 
       res.render('jew', {
