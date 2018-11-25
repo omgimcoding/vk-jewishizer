@@ -7,6 +7,7 @@ const config = {
   order: 'random',
   language: 'ru',
   apiVersion: 5.68,
+  accessToken: '',
 };
 
 module.exports = config;
